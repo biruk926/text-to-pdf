@@ -1,2 +1,11 @@
-python-telegram-bot==20.7
-reportlab==4.0.4
+python-telegram-bot>=20.0
+# OR if using aiogram
+aiogram>=3.0
+# OR if using pyTelegramBotAPI
+pyTelegramBotAPI>=4.0
+
+# Additional dependencies
+reportlab  # for PDF generation
+pillow     # for image handling if needed
+flask      # if using webhooks
+gunicorn   # if using web service
